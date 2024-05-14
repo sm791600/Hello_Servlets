@@ -26,8 +26,9 @@ public class HelloWorld extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		System.out.println("Hello World");
+		//System.out.println("Hello World");
 		//response.getWriter().append("Served at: ").append(request.getContextPath());
+		response.getWriter().println("<h1> Hello Web Page</h1>");
 	}
 
 }
